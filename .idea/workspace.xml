@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b7343d29-bd13-45a4-8ce8-68923b5841ac" name="Changes" comment="" />
+    <list default="true" id="b7343d29-bd13-45a4-8ce8-68923b5841ac" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/App/Controllers/MainpageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Controllers/MainpageController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Controllers/WeatherController.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Controllers/WeatherController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Model/City.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Model/City.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Model/Weather.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Model/Weather.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Templates/mainpage.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Templates/mainpage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Public/main.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,6 +48,7 @@
       <updated>1659366073440</updated>
       <workItem from="1659366074682" duration="5761000" />
       <workItem from="1659373591714" duration="2403000" />
+      <workItem from="1659426909515" duration="5186000" />
     </task>
     <servers />
   </component>

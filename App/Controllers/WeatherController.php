@@ -47,16 +47,10 @@ class WeatherController
                 $weather->insert($array);
             }
             $forecast = $weather->findByCityId($cityId);
-                die(json_encode($forecast));
-//            var_dump($weather->findByCityId($cityId));
+            die(json_encode($forecast));
         } else {
             $forecast = $weather->findByCityId($cityId);
             die(json_encode($forecast));
-
-//            var_dump($weather->findByCityId($cityId));
         }
-
-
     }
-
 }

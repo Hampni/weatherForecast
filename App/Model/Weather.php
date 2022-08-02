@@ -7,8 +7,6 @@ use App\Db;
 class Weather
 {
 
-
-
     public function findByCityId($city_id)
     {
         $db = new Db();

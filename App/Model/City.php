@@ -7,10 +7,6 @@ use App\Db;
 class City
 {
 
-    public $id;
-    protected $name;
-    protected $cityCode;
-
     public function findAll()
     {
         $db = new Db();
