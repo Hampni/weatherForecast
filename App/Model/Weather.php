@@ -6,7 +6,6 @@ use App\Db;
 
 class Weather
 {
-
     public function findByCityId($city_id)
     {
         $db = new Db();
@@ -21,5 +20,4 @@ class Weather
                 VALUES (:city_id,:date,:temperature_max,:temperature_min, :image)";
         $db->query($sql, $params);
     }
-
 }

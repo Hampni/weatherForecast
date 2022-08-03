@@ -6,7 +6,6 @@ use App\Db;
 
 class City
 {
-
     public function findAll()
     {
         $db = new Db();
@@ -18,6 +17,6 @@ class City
     {
         $db = new Db();
         $sql = "SELECT * FROM cities WHERE name=:name";
-        return $db->query($sql,[':name' => $name]);
+        return $db->query($sql, [':name' => $name]);
     }
 }

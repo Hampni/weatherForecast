@@ -7,7 +7,6 @@ use App\View;
 
 class MainpageController
 {
-
     protected View $view;
 
     public function __construct()

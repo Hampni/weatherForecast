@@ -6,7 +6,6 @@ use App\Config;
 
 class Db
 {
-
     protected \PDO $dbh;
 
     public function __construct()

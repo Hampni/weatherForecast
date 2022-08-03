@@ -4,7 +4,6 @@ namespace App;
 
 class View
 {
-
     public $data = [];
 
     public function add($key, $data)
@@ -16,5 +15,4 @@ class View
     {
         include $template;
     }
-
 }

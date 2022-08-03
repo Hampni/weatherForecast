@@ -7,7 +7,6 @@ use App\Model\Weather;
 
 class WeatherController
 {
-
     public function index()
     {
         $city = new City();
@@ -25,7 +24,6 @@ class WeatherController
             $file = file_get_html($requestLink);
 
             foreach ($file->find('a.row-item') as $item) {
-
                 foreach ($item->find('div.date') as $divDate) {
                     $array[':date'] = $divDate->innertext;
                 }
