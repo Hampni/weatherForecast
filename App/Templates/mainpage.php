@@ -29,7 +29,9 @@
 
 <div class="text-center">
     <p>
-    <div id="sheets" style="max-width: 704px;display: inline-block; height: 504px; border: 2px solid #000000">
+    <h3 class="error"> </h3>
+    <p></p>
+    <div id="sheets" style="max-width: 704px;display: inline-block; height: fit-content; border: 2px solid #000000">
     </div>
     </p>
 </div>

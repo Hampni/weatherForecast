@@ -11,6 +11,12 @@ class WeatherController
     {
         $city = new City();
         $foundCity = $city->findByName($_POST['city']);
+
+        if (!$foundCity) {
+            $error = ['message' => 'City was not found'];
+            die(json_encode($error));
+        }
+
         $cityId = $foundCity[0]->id;
 
         $weather = new Weather();
