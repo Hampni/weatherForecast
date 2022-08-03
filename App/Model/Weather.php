@@ -17,9 +17,9 @@ class Weather
     public function insert($params)
     {
         $db = new Db();
-        $sql = "INSERT INTO `city_weather`(`city_id`, `date`, `temperature_max`, `temperature_min`) 
-                VALUES (:city_id,:date,:temperature_max,:temperature_min)";
-        $db->query($sql,$params);
+        $sql = "INSERT INTO `city_weather`(`city_id`, `date`, `temperature_max`, `temperature_min`, `image`) 
+                VALUES (:city_id,:date,:temperature_max,:temperature_min, :image)";
+        $db->query($sql, $params);
     }
 
 }

@@ -44,6 +44,18 @@ class WeatherController
                         }
                     }
                 }
+
+                foreach ($item->find('div.icon') as $icon) {
+                    $svgs = $icon->find('svg');
+                    foreach ($svgs as $svg) {
+                        $uses = $svg->find('use');
+                        foreach ($uses as $use) {
+                            $image = substr(substr($use->outertext, 18), 0, -3);
+                            $array[':image'] = $image;
+                        }
+                    }
+                }
+
                 $weather->insert($array);
             }
             $forecast = $weather->findByCityId($cityId);

@@ -12,3 +12,4 @@ $class = '\App\Controllers\\' . $ctrl . 'Controller';
 $controller = new $class;
 $controller->index();
 
+
